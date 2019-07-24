@@ -1,0 +1,157 @@
+<!DOCTYPE>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+</head>
+
+<body>
+<ol>
+
+<li>Table表格</li>
+<section id="_table">
+<xmp><table border="1" style="text-align: center">
+<tr>
+<th>1th</th>
+<td>1td</td>
+</tr>
+<tr>
+<td colspan="2">2td</td>
+</table>
+</xmp>
+
+<table border="1" style="text-align: center">
+<tr>
+<th>1th</th>
+<td>1td</td>
+</tr>
+<tr>
+<td colspan="2">2td</td>
+</table>
+</section>
+<br>
+
+<li>Form表單</li>
+<section id="_form">
+<xmp><form id="表單名稱" action="資料接收端的路徑" method="資料傳送方式"></form>
+<form autocomplete="on">
+First name:<input type="text" name="fname"><br>
+Last name: <input type="text" name="lname"><br>
+E-mail: <input type="email" name="email" autocomplete="off"><br>
+<input type="submit">
+</form>
+</xmp>
+
+<form id="onlyForm" autocomplete="on">
+First name:<input type="text" name="fname"><br>
+Last name: <input type="text" name="lname"><br>
+E-mail: <input type="email" name="email" autocomplete="off"><br>
+<input type="submit">
+</form>
+</section>
+<br>
+
+<li>Form+Table</li>
+<xmp><form id="formAndtable" autocomplete="on">
+<table border="1" id="tableInform" style="text-align: left">
+<tr>
+<th>姓氏(Last Name):</th>
+<td><input type="text" name="lastname"></td>
+</tr>
+<tr>
+<th>姓名(First Name):</th>
+<td><input type="text" name="firstname"></td>
+</tr>
+<tr>
+<th>性別(sex):</th>
+<td>
+<input type="radio" name="sex" value="男性" checked>男性
+<input type="radio" name="sex" value="女性">女性
+</td>
+</tr>
+<tr>
+<th>E-mail:</th>
+<td><input type="email" name="email" autocomplete="off" placeholder="example@???.com"></td>
+</tr>
+<tr>
+<th>居住城市:</th>
+<td>
+<select name="liveCity">
+<option value=""selected>請選擇</option>
+<option value="新北市">新北市</option>
+<option value="台北市">台北市</option>
+<option value="高雄市">高雄市</option>
+</select>
+<select name="欄位名稱">
+<option value=""selected>預設選擇</option>
+<option value="傳送資料值">選項顯示文字</option>
+</select>
+</td>
+</tr>
+<tr>
+<th>職業:</th>
+<td>
+<input type="checkbox" name="c1" value="學生">學生
+<input type="checkbox" name="c2" value="老師">老師
+<br>
+<input type="checkbox" name="c3" value="其他">其他
+<input type="text" name="c3Text">
+</td>
+</tr>
+<tr>
+<th>備註:</th>
+<td><textarea name="others" rows="1" cols="30"></textarea></td>
+</table>
+</form>
+</xmp>
+
+<form id="formAndtable" autocomplete="on">
+<table border="1" id="tableInform" style="text-align: left">
+<tr>
+<th>姓氏(Last Name):</th>
+<td><input type="text" name="lastname"></td>
+</tr>
+<tr>
+<th>姓名(First Name):</th>
+<td><input type="text" name="firstname"></td>
+</tr>
+<tr>
+<th>性別(sex):</th>
+<td>
+<input type="radio" name="sex" value="男性" checked>男性
+<input type="radio" name="sex" value="女性">女性
+</td>
+</tr>
+<tr>
+<th>E-mail:</th>
+<td><input type="email" name="email" autocomplete="off" placeholder="example@???.com"></td>
+</tr>
+<tr>
+<th>居住城市:</th>
+<td>
+<select name="liveCity">
+<option value=""selected>請選擇</option>
+<option value="新北市">新北市</option>
+<option value="台北市">台北市</option>
+<option value="高雄市">高雄市</option>
+</select>
+</td>
+</tr>
+<tr>
+<th>職業:</th>
+<td>
+<input type="checkbox" name="c1" value="學生">學生
+<input type="checkbox" name="c2" value="老師">老師
+<br>
+<input type="checkbox" name="c3" value="其他">其他
+<input type="text" name="c3Text">
+</td>
+</tr>
+<tr>
+<th>備註:</th>
+<td><textarea name="others" rows="4" cols="30"></textarea></td>
+</table>
+</form>
+
+</ol>
+</body>
+</html>
