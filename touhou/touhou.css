@@ -1,0 +1,83 @@
+@charset "utf-8";
+.red{color:#FF0000;}
+.blue{color:#0000FF;}
+.lime{color:#00FF00;}
+.black{color:#000000;}
+.white{color:#ffffff;}
+.big2{
+	font-size:2em;
+	text-align:center;}
+
+body{
+	background-color:#fbf9cc;
+	/* background-image:url(black.jpg); */
+	/* background-repeat:repeat-x; */
+	background:#fbf9cc url(3.jpg) no-repeat;}
+	}
+
+.bg{
+	margin:20px 30px;
+	padding: 35px 30px 30px 30px;
+	background-color:#a1b2c3;}
+
+.ph{
+	/*float的功用就是可以讓圖片與文字排列再一起*/
+	float:left;	
+}
+
+.clr{
+	/*clear的功用就是可以解除float的狀態*/
+	clear:left;
+}
+
+#wrap{
+	/*id="wrap"放置在body內的位置
+	功能->讓網頁顯示出盒子模型*/
+	width:798px; 
+	/*設定網頁寬度，width僅包含內容區塊部分，並未包含
+	padding,margin和border*/
+	/*若要讓網頁總寬度=960,width=960-80-80-1-1=798px
+	寬度太寬的，會不易閱讀*/
+	margin:40px auto;
+	padding:40px 80px;
+	border: #f6bb9e 1px solid;
+	background-color:#ffffff;
+}
+	
+a:link{
+color:#0000ff;}
+a:visited{
+color:#ff0000;}
+a:hover{
+color:#ff0000;}
+/*h1{
+	color:#ff0000;
+	text-align:center;}*/
+h2{
+	color:#0000ff;
+	border: #33aaaa 1px dotted;
+	border-left: #559999 10px solid;
+	padding: 5px 20px;
+}
+dd.story{
+	font-weight:normal;
+	font-size:1.3em;
+	margin:10px 60px;
+}
+dd#last{
+	color:#000000;
+	font-weight:bold;
+	font-size:1.3em;
+	margin:10px 60px;
+}
+h1 span{
+	color:#123456;
+}
+
+ul#chara >section >li{
+	font-size:1.1em;
+	font-weight:bold;
+	color:#654321;
+}
+li{
+font-size:1.2em;}
