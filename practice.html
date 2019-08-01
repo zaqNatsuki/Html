@@ -5,6 +5,7 @@
 </head>
 
 <body>
+<h1>基本綜合練習</h1>
 <ol>
 
 <li>Table表格</li>
@@ -81,10 +82,6 @@ E-mail: <input type="email" name="email" autocomplete="off"><br>
 <option value="台北市">台北市</option>
 <option value="高雄市">高雄市</option>
 </select>
-<select name="欄位名稱">
-<option value=""selected>預設選擇</option>
-<option value="傳送資料值">選項顯示文字</option>
-</select>
 </td>
 </tr>
 <tr>
@@ -98,9 +95,16 @@ E-mail: <input type="email" name="email" autocomplete="off"><br>
 </td>
 </tr>
 <tr>
+<th>照片:</th>
+<td><input type="file" name="photo"></td>
+</tr>
+<tr>
 <th>備註:</th>
-<td><textarea name="others" rows="1" cols="30"></textarea></td>
+<td><textarea name="others" rows="4" cols="30"></textarea></td>
+</tr>
 </table>
+<input type="reset" value="清除重填">
+<input type="submit" value="送出">
 </form>
 </xmp>
 
@@ -117,8 +121,8 @@ E-mail: <input type="email" name="email" autocomplete="off"><br>
 <tr>
 <th>性別(sex):</th>
 <td>
-<input type="radio" name="sex" value="男性" checked>男性
-<input type="radio" name="sex" value="女性">女性
+<input type="radio" name="sex" value="男性" required>男性
+<input type="radio" name="sex" value="女性" required>女性
 </td>
 </tr>
 <tr>
@@ -147,9 +151,16 @@ E-mail: <input type="email" name="email" autocomplete="off"><br>
 </td>
 </tr>
 <tr>
+<th>照片:</th>
+<td><input type="file" name="photo"></td>
+</tr>
+<tr>
 <th>備註:</th>
 <td><textarea name="others" rows="4" cols="30"></textarea></td>
+</tr>
 </table>
+<input type="reset" value="清除重填">
+<input type="submit" value="送出">
 </form>
 
 </ol>
