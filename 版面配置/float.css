@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+*{
+	text-align:center;
+	padding:0px;
+	margin:10px;
+	border:#000000 3px solid;
+}
+
+body{
+	background-color:#cccccc;
+}
+
+#wrap,#wrap2{
+	width:800px;
+	margin:30px auto;
+	background-color:#fbf9cc;
+}
+
+.header{
+	background-color:#ff0000;
+}
+
+.main{
+	background-color:#00ff00;
+	width:350px;
+	float:left;
+}
+
+#c{
+	padding:10px;
+	width:370px;
+	float:left;
+	background-color:#aaaaaa;
+}
+
+.side{
+	margin:5px;
+	background:#0055ff;
+	width:100px;
+}
+
+.side.c1{
+	height:300px;
+	float:left;
+}
+
+.side.c2{
+	float:left;
+}
+
+.side.c4{
+	height:300px;
+	float:right;
+}
+
+.ground{
+	clear:both;
+	background-color:#123123;
+}
+
+.box{
+	border:0px;
+	margin-right: -40px;
+	overflow:hidden;
+	/*overflow:hidden就是隱藏超出範圍的資料
+	若使用了float元素卻沒辦法使用clear元素導致，div的高度有問題，
+	使用overflow:hidden也可得到正確的結果。*/
+}
+
+.box li{
+	/*本來wrap2的總寬度只有800px;
+	但是這幾個排列的寬度加起來總共需要4*200+20(2個margin:10px)=820
+	第四個會排不下，因此我們利用margin-right:-20px;讓第四個可以不需要
+	去管右邊的margin,如此可以塞得下去。至於margin-right的值，就是
+	20-margin:10px;=10px;因此至少要小於-10px才塞得進去。
+	如果有border的話，還要把border的寬度算進去。*/
+	margin:0px 20px 20px 0px;
+	border:0px;
+	list-style:none;
+	text-align:center;
+	width:180px;
+	height:180px;
+	background-color:#00ffff;
+	float:left;
+}
+
