@@ -1,0 +1,62 @@
+@charset "utf-8";
+/*position是用來指定位置的屬性，
+預設值為Static=>一般配置
+若將值改成Absolute=>絕對配置，
+則可以自由設計版面*/
+
+
+#wrap{
+	background-color:#fbf9cc;
+	margin:30px auto;
+	padding:30px 0px;
+	width:960px;
+	position:relative;
+	/*relative表示wrap為基準元素
+	事後position配置會以此為基準
+	若是沒有打，則自動以body為基準
+	且必須是absolute的父元素或祖先元素*/
+}
+
+.comment{
+	margin:10px auto;
+	padding:2%;
+	width:760px;
+	border:#000000 2px solid;
+}
+
+.content{
+	text-align:center;
+	font-size:1.5em;
+	width:800px;
+	height:200px;
+	margin:20px auto;
+	border:#000000 1px solid;
+}
+
+.content.a{
+	background-color:#ff5555;
+}
+
+.content.b{
+	background-color:#55ff55;
+}
+
+.content.c{
+	background-color:#5555ff;
+}
+
+#pos{
+	position:absolute;
+	background-color:#222222;
+	color:#ffffff;
+	padding:10px;
+	width:20px;
+	right:-30px;
+	top:0;
+	z-index:-1;
+	/*z-index只有在當position元素不為static時才生效。
+	可以藉由此屬性改變圖層的顯示順序*/
+}
+
+
+
