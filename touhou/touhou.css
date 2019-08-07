@@ -22,7 +22,7 @@ body{
 
 .ph{
 	/*float的功用就是可以讓圖片與文字排列再一起*/
-	float:left;	
+	float:left;
 }
 
 .clr{
