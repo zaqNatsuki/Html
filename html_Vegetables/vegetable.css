@@ -1,0 +1,219 @@
+@charset "utf-8";
+
+.bg {
+  width: 1260px;
+  height: 880px;
+  background-color: #edf2c5;
+}
+
+.logo_Vegetables {
+  width: 271px;
+  height: 42px;
+  font-family: Arial;
+  font-size: 44px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+  box-sizing: border-box;
+}
+
+.content_area{
+	padding-left:160px;
+	padding-right:160px;
+}
+
+.title{
+	padding-top: 0px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.btn_JOIN {
+  width: 33px;
+  height: 10px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: normal;
+  line-height: 1.5;
+  text-align: center;
+  color: #778a50;
+}
+
+.btn_LOGIN {
+  width: 43px;
+  height: 10px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #778a50;
+}
+
+.btn_join_box {
+  width: 50px;
+  height: 25px;
+  border-radius: 3px;
+  border: solid 1px #778a50;
+  margin-left: 10px;
+}
+
+.btn_login_box{
+  width: 60px;
+  height: 25px;
+  border-radius: 3px;
+  border: solid 1px #778a50;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-left: 10px;
+}
+
+.btn_facebook{
+	margin-left: 469px;
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+
+.btn_instagram{
+	margin-right: 10px;
+	width: 25px;
+	height: 25px;
+}
+
+.between{
+	width: 1px;
+	height: 25px;
+	color: #778a50;
+}
+
+.img_main_pumpkin {
+  margin-top: 20px;
+  width: 940px;
+  height: 448px;
+}
+
+.nav_box {
+  width: 940px;
+  height: 44px;
+  border-radius: 3px;
+  background-color: #778a50;
+  display: flex;
+  padding-left: 30px;
+  box-sizing: border-box;
+  clear: top;
+  margin-top: -30px;
+}
+
+.nav_word {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  margin-right: 60px;
+}
+
+.vegetables_contact{
+  display:flex;
+  flex-direction:row;
+}
+
+.vegetables_box, .contact_box{
+  box-sizing: border-box;
+  width: 445px;
+  height: 45px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  color: #edf2c5;
+  border-radius: 3px;
+  background-color: #778a50;
+  padding-left: 30px;
+  padding-top: 10px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.img_vegetables{
+  width: 140px;
+  height: 140px;
+  margin-right: 9px;
+  margin-top: -5px;
+}
+
+.text {
+  width: 410px;
+  height: 43px;
+  font-family: Arial;
+  font-size: 12px;
+  --text-align: left;
+  color: #7d7d7d;
+}
+
+.contact_text{
+  width: 445px;
+  height: 140px;
+  border-radius: 3px;
+  background-color: #f7fbda;
+  --background-color:#000;
+  padding-top: 1px;
+  padding-left:15px;
+  padding-right: 15px;
+  box-sizing: border-box; 	
+}
+
+.between_horizontal{
+	width: 415px;
+	height: 0px;
+	border: solid 1px;
+	color: #7d7d7d;
+}
+
+.email_phone{
+  width: 193px;
+  height: 31px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+}
+
+.footer {
+	margin-top: -11px;
+  width: 1260px;
+  height: 60px;
+  background-color: #778a50;
+  box-sizing: border-box;
+}
+
+.copyright{
+  width: 302px;
+  height: 11px;
+  font-family: Arial;
+  font-size: 12px;
+  text-align: left;
+  color: #edf2c5;
+  padding-top:24px;
+  padding-left:479px;
+}
