@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+body{
+	background-color: #000;
+}
+
+.main{
+	margin: 0 auto;
+	width: 1280px;
+	height: 1600px;
+	background-color: #B4A7D6;
+}
+
+.head{
+	padding:0;
+	margin:0;
+	width: 100%;
+	height: 8%;
+	background-color: #fff;
+	position: fixed;
+	top:0;
+	left:0;
+}
+
+.headMain{
+	margin: 0 auto;
+	width: 1280px;
+	height: 100%;
+	background-color: #fff;
+	justify-content: space-between;
+	display: flex;
+}
+
+.displayFlex{
+	display:flex;
+}
+
+.titleText{
+	color:#555;
+	font-size: 40px;
+	font-family: consolas;
+	line-height:0;
+	margin-left:5px;
+}
+
+.textDecNone{
+	text-decoration: none;
+}
+
+.titleGo{
+	box-sizing: border-box;
+	padding:5px 20px;
+	border:1px solid #0A8254;
+	color: #0A8254;
+	border-radius: 6px;
+}
+
+.empty{
+	width:100%;
+	height: 100px;
+}
+
+.theText{
+	margin-left: 40px;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: consolas;
+	line-height:30px;
+}
+
+.theTextsmall{
+	font-size: 16px;
+	font-weight:normal;
+	margin-left: 40px;
+	margin-top: -10px;
+	color: #555;
+}
+
+.theCourse{
+	width:100%;
+	justify-content:space-around;
+	display:flex;
+}
+
+.course{
+	box-sizing:border-box;
+	border:1px solid #777;
+	width:250px;
+	height: 350px;
+	padding:18px 19px 0px 19px;
+}
+
+.courseImg{
+	width: 210px;
+	height: 243px;
+}
+
+.courseName{
+	font-weight: bold;
+	font-family: consolas;
+	font-size: 20px;
+}
+
+.hr1{
+	margin-top:10%;
+	margin-bottom:5%;
+	color: #000;
+}
+
+.searchBox{
+	box-sizing: border-box;
+	border:1px solid #000;
+	width: 60%;
+	height:10%;
+	margin: 15px auto;
+	margin-bottom:5%;
+	background-color:#6FA8DC;
+	padding:10px 95px 10px 95px;
+}
+
+.searchText{
+	font-weight: bold;
+	font-family: consolas;
+	font-size:25px;
+	width:300px;
+	margin-right:10px;
+}
+
+.searchField{
+	width: 200px;
+	border-radius: 5px;
+}
+
+.searchButton{
+	width:50px;
+	border-radius:5px;
+	vertical-align: bottom;
+}
+
+.foot{
+	box-sizing: border-box;
+	margin-top:45px;
+	width: 100%;
+	height: 5%;
+	background-color: #888;
+	padding-top:15px;
+}
+
+.footText{
+	color: #333;
+	margin-left:20%;
+	font-family: consolas;
+}
+
+
